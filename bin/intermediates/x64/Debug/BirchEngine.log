@@ -1,0 +1,31 @@
+﻿  Vector2D.cpp
+  TextureManager.cpp
+  Map.cpp
+  main.cpp
+  GameObject.cpp
+  Game.cpp
+  Collision.cpp
+  Generating Code...
+Game.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function "public: void __cdecl Game::init(char const *,int,int,bool)" (?init@Game@@QEAAXPEBDHH_N@Z)
+Game.obj : error LNK2019: unresolved external symbol SDL_DestroyWindow referenced in function "public: void __cdecl Game::clean(void)" (?clean@Game@@QEAAXXZ)
+Game.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function "public: void __cdecl Game::handleEvents(void)" (?handleEvents@Game@@QEAAXXZ)
+Game.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function "public: void __cdecl Game::init(char const *,int,int,bool)" (?init@Game@@QEAAXPEBDHH_N@Z)
+Game.obj : error LNK2019: unresolved external symbol SDL_SetRenderDrawColor referenced in function "public: void __cdecl Game::init(char const *,int,int,bool)" (?init@Game@@QEAAXPEBDHH_N@Z)
+Game.obj : error LNK2019: unresolved external symbol SDL_RenderClear referenced in function "public: void __cdecl Game::render(void)" (?render@Game@@QEAAXXZ)
+Game.obj : error LNK2019: unresolved external symbol SDL_RenderPresent referenced in function "public: void __cdecl Game::render(void)" (?render@Game@@QEAAXXZ)
+Game.obj : error LNK2019: unresolved external symbol SDL_DestroyTexture referenced in function "public: virtual __cdecl SpriteComponent::~SpriteComponent(void)" (??1SpriteComponent@@UEAA@XZ)
+Game.obj : error LNK2019: unresolved external symbol SDL_DestroyRenderer referenced in function "public: void __cdecl Game::clean(void)" (?clean@Game@@QEAAXXZ)
+Game.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function "public: void __cdecl Game::init(char const *,int,int,bool)" (?init@Game@@QEAAXPEBDHH_N@Z)
+Game.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function "public: void __cdecl Game::clean(void)" (?clean@Game@@QEAAXXZ)
+GameObject.obj : error LNK2019: unresolved external symbol SDL_RenderCopy referenced in function "public: void __cdecl GameObject::Render(void)" (?Render@GameObject@@QEAAXXZ)
+TextureManager.obj : error LNK2001: unresolved external symbol SDL_RenderCopy
+main.obj : error LNK2019: unresolved external symbol SDL_GetTicks referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_Delay referenced in function SDL_main
+TextureManager.obj : error LNK2019: unresolved external symbol SDL_FreeSurface referenced in function "public: static struct SDL_Texture * __cdecl TextureManager::LoadTexture(char const *)" (?LoadTexture@TextureManager@@SAPEAUSDL_Texture@@PEBD@Z)
+TextureManager.obj : error LNK2019: unresolved external symbol SDL_CreateTextureFromSurface referenced in function "public: static struct SDL_Texture * __cdecl TextureManager::LoadTexture(char const *)" (?LoadTexture@TextureManager@@SAPEAUSDL_Texture@@PEBD@Z)
+TextureManager.obj : error LNK2019: unresolved external symbol IMG_Load referenced in function "public: static struct SDL_Texture * __cdecl TextureManager::LoadTexture(char const *)" (?LoadTexture@TextureManager@@SAPEAUSDL_Texture@@PEBD@Z)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Dev\SDL2\lib\x86\SDL2.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Dev\SDL2\lib\x86\SDL2main.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\lacan\Desktop\Dev\Dev\SDL2_image-2.0.1\lib\x86\SDL2_image.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\lacan\Desktop\Dev\Dev\BirchEngine - Textures\bin\x64\Debug\BirchEngine.exe : fatal error LNK1120: 18 unresolved externals

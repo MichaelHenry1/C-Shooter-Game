@@ -1,0 +1,4 @@
+Upgrades for each enemy to get more coins when they die
+bullet strength Uprgades
+player health upgrades
+
